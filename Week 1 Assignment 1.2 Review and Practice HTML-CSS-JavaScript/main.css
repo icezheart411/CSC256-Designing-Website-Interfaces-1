@@ -1,0 +1,32 @@
+/* global CSS */
+body{
+    background-color: greenyellow;
+    color: blue;
+    font-size: large;
+}
+
+header{
+    border: 2px blue solid;
+    background-color: yellow;
+    text-align: center;
+    font-size: x-large;
+}
+
+div{
+    margin-top: 5px;
+    padding-top: 5px
+}
+
+.padding{
+    padding-bottom: 10px;
+}
+
+img{
+    border: 5px blue solid;
+    width: 100%;
+}
+
+footer{
+    border: 2px blue solid;
+    background-color: yellow;
+}
