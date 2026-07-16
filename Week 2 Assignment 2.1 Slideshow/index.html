@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix</title>
+    <!-- setting up my CSS and JavaScript links, add defer on JavaScript so it loads after HTML -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- import my google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>This Is My Matrix Slideshow(Or Is It)</h1>
+    </header>
+    <main>
+        <h2>Which Shall You Choose</h2>
+        <!-- setting up image id to be show the slideshow -->
+        <img id="imgSlide" src="" alt="Matrix Slideshow">
+        <!-- set up divs so buttons can go below the slideshow images -->
+        <div>
+            <!-- setup button to view previous images -->
+            <button onClick="previousImage();" class="button1">RED</button>
+            <button onClick="nextImage();" class="button2">BLUE</button>
+        </div>
+        <h2>Shall We Go Down The Rabbit Hole</h2>
+        <br>
+        <div>
+            <video id="magicMatrix" style="display: none;">
+                <source src="./videos/magicMatrix.mp4" type="video/mp4">
+            </video>
+            <button id="matrix" class="btnMatrix">HOLE</button>
+        </div>
+    </main>
+    <footer>
+        Designed by Mike Davis AKA icezheart
+    </footer>
+</body>
+</html>
