@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <!-- css styles getting linked in -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- JavaScript getting loaded with defer -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Going to the Movies</h1>
+    </header>
+    <main>
+        <h2>Name Your Favorite Movies</h2>
+        <p>
+            Below make a list of your favorite movies of all time, any genre, go for it!
+        </p>
+        <!-- create a label for the input txtMovie -->
+        <label for="txtMovie">Name Input: </label>
+        <!-- speciftying formats and variable to be created  -->
+        <input type="text" id="txtMovie" name="txtMovie">
+        <!-- calling the function to addMovie when clicked -->
+        <button onclick="addMovie();">Add Movie</button>
+        <!-- calling function to clearList when clicked -->
+        <button onclick="clearMovies();">Clear list</button>
+        <!-- creating a space to show the movieList -->
+        <div id="movieList">
+            
+        </div>
+    </main>
+    <footer>
+            Created by Mike Davis
+    </footer>
+</body>
+</html>

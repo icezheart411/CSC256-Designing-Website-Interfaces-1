@@ -1,0 +1,56 @@
+body{
+    height: 100%;
+    margin: 10px;
+    font-size: large;
+    background-color: black;
+    color: orange;
+}
+/* changed the display to show in columns trying to figure out a way to make the footer stay on the bottom instead of hugging the content above */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    background-color: maroon;
+    color: gold;
+}
+/* setting the main element to the primary flex */
+main{
+    flex-grow: 1;
+}
+
+h2{
+    font-size: 30px;
+    color: gold;
+}
+
+input{
+    background-color: gray;
+    color: maroon;
+}
+
+button{
+
+    background-color: lightgray;
+    color: red;
+}
+
+button:hover{
+    background-color: gray;
+    color: blue;
+}
+/* set the div elements values */
+#movieList{
+    background-color: gray;
+    color: maroon;
+}
+
+footer{
+    
+    background-color: maroon;
+    color: black;
+}
