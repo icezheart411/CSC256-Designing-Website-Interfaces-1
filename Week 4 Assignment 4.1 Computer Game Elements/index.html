@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Gamer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bayon">
+</head>
+<body>
+    <header>
+        <h1>PC Gamer Elite</h1>
+    </header>
+    <main>
+        <h2>Welcome to the Epic Stat Tracker</h2>
+        <p>
+            Below is a form to enter in your players info. Please enter in the User Name, Weapon Used, Weapon Damage,
+            and the Damage Bonus in order to be able to track your stats for that player and weapon.
+        </p>
+        <form name="formApp" id="formApp" method="post" action="#">
+            <div>
+                <label for="userName">User Name: </label>
+                <input type="text" id="userName" name="userName" placeholder="Enter Player Name" required>
+            </div>
+            <div>
+                <label for="weaponUsed">Weapon Used: </label>
+                <input type="text" id="weaponUsed" name="weaponUsed" placeholder="Enter Weapon Used" required>
+            </div>
+            <div>
+                <label for="weaponDmg">Weapon Damage: </label>
+                <input type="text" id="weaponDmg" name="weaponDmg" placeholder="Enter Weapon Damage" required>
+            </div>
+            <div>
+                <label for="dmgBonus">Damage Bonus: </label>
+                <input type="text" id="dmgBonus" name="dmgBonus" placeholder="Enter Damage Bonus" required>
+            </div>
+            <div>
+                <!-- when I changed my input color to gray it made my sumbit gray so I just forced an inline css white -->
+                <input style="background-color: white;" type="submit" onClick="processForm(event);">
+            </div>
+        </form>
+        <h3>Here are Your Current stats</h3>
+        <div id="txtArea">
+            <textarea id="txtaOutput" readonly></textarea>
+            <br>
+            <button type="button" id="submitBtn" onClick="document.getElementById('txtaOutput').value = ' '">Clear Info</button>
+        </div>
+    </main>
+    <footer>
+        *Created By Mike Davis*
+    </footer>
+</body>
+</html>

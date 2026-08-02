@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Bayon';
+    font-size: 22px;
+}
+
+header{
+    background-color: green;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2{
+    color: gold;
+    font-weight: bolder;
+    text-align: center;
+}
+
+form{
+    border: green solid 5px;
+    text-align: center;
+}
+
+input{
+    background-color: gray;
+    text-align: center;
+}
+
+h3{
+    color: gold;
+    text-align: center;
+}
+/* could not get my txtArea to center so I just increased the margin */
+#txtArea{
+    margin-left: 245px;
+}
+
+textarea{
+    width: 250px;
+    height: 150px;
+    background-color: gray;
+    text-align: center;
+}
+/* button wouldn't align center so I forced a left margin till it looked good, I've had some center alignment issues with the textarea div, I even tried to center it from the div id no luck I don't know what is overriding it */
+button{
+    margin-left: 88px;
+}
+
+footer{
+    color: red;
+}
