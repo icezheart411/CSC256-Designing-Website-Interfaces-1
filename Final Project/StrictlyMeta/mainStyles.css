@@ -1,0 +1,105 @@
+/* Main stylesheet for all pages */
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: black;
+}
+
+header{
+    margin: 5px;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+#divLinks{
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 75px;
+    font-family: Bungee Spice;
+    font-weight: bolder;
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: orangered;
+    font-size: medium;
+    font-family: Bungee Spice;
+}
+
+a:hover{
+    color: yellow;
+}
+
+main{
+    color: orange;
+}
+
+footer{
+    border: 2px solid orangered;
+    border-radius: 3px;
+    margin-top: auto;
+    background-color: black;
+    color: orange;
+}
+/* Upcoming games page specific */
+#upcoming{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+#mw4Vault{
+    max-width: 50%;
+    height: auto;
+}
+
+#mw4Form{
+    max-width: 50%;
+    height: auto;
+}
+
+#addressForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    color: orange;
+    font-family: Aclonica;
+}
+
+#addressForm h2{
+    color: orangered;
+}
+
+#addressForm input{
+    padding: 10px;
+    border: 2px solid orangered;
+    background-color: black;
+    color: orange;
+}
+
+#addressForm button{
+    padding: 10px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#addressForm button:hover{
+    background-color: yellow;
+}
+
+#formMessage{
+    color: yellow;
+}
